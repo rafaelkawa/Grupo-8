@@ -1,11 +1,10 @@
-
-#1 python
-#2 java
-#3 C
-#4 C#
-#5 C++
-#6 JS
-#7 PHP
-#8 Ruby
-#9 R
-#10 Perl
+#1 python - O(n^2)
+#2 java - O(n log n)
+#3 C - O(1)
+#4 C# - O(n log n)
+#5 C++ - O(n)
+#6 JS - O(n^2)
+#7 PHP - O(n^2)
+#8 Ruby - O(1) 
+#9 R - O(n)
+#10 Go - O(n log n)
