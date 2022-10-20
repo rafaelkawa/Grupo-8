@@ -1,79 +1,74 @@
 // declaramos as principais informacoes e estruturas numa BST e criamos alguns metodos essenciais para manuear, como add e print
-public class BinarySearchTree {
-    class Node {
+public class ArvoreBinariaBusca {
+    class No {
         int val;
-        Node left, right;
+        No esq, dir;
  
-        public Node(int item)
+        public No(int item)
         {
             val = item;
-            left = right = null;
+            esq = dir = null;
         }
     }
  
-    // Root of BST
-    Node root;
+
+    No raiz;
  
-    // Constructor
-    BinarySearchTree() { root = null; }
+
+    ArvoreBinariaBusca() { raiz = null; }
  
-    BinarySearchTree(int value) { root = new Node(value); }
+    ArvoreBinariaBusca(int value) { raiz = new No(value); }
  
-    // This method mainly calls addRec()
-    void add(int val) { root = addRec(root, val); }
+    void add(int val) { raiz = addRec(raiz, val); }
  
-    /* A recursive function to
-       add a new val in BST */
-    Node addRec(Node root, int val)
+
+    No addRec(No raiz, int val)
     {
- 
-        /* If the tree is empty,
-           return a new node */
-        if (root == null) {
-            root = new Node(val);
-            return root;
+
+        if (raiz == null) {
+            raiz = new No(val);
+            return raiz;
         }
  
-        /* Otherwise, recur down the tree */
-        else if (val < root.val)
-            root.left = addRec(root.left, val);
-        else if (val > root.val)
-            root.right = addRec(root.right, val);
+
+        else if (val < raiz.val)
+            raiz.esq = addRec(raiz.esq, val);
+        else if (val > raiz.val)
+            raiz.dir = addRec(raiz.dir, val);
  
-        /* return the (unchanged) node pointer */
-        return root;
+
+        return raiz;
     }
  
-    // This method mainly calls printRec()
-    void print() { printRec(root); }
+
+    void print() { printRec(raiz); }
  
-    // A utility function to
-    // do print traversal of BST
-    void printRec(Node root)
+   
+    void printRec(No raiz)
     {
-        if (root != null) {
-            printRec(root.left);
-            System.out.println(root.val);
-            printRec(root.right);
+        if (raiz != null) {
+            printRec(raiz.esq);
+            System.out.println(raiz.val);
+            printRec(raiz.dir);
         }
     }
     
-    public Node search(Node root, int val) {
-        if(root == null ){
-            return null;
+    public boolean search(No raiz, int val) {
+        if(raiz == null ){
+            return false;
         } 
-        if (root.val == val) {
-            return root;
+        if (raiz.val == val) {
+            return true;
         }
-        if(root.val > val) {
-            return search(root.left, val);
+        if(raiz.val > val) {
+            return search(raiz.esq, val);
         }
-        return search(root.right, val);
+        return search(raiz.dir, val);
     }
  
    
    public static void main(String[] args){
-    BinarySearchTree tree = new BinarySearchTree();
+    ArvoreBinariaBusca tree = new ArvoreBinariaBusca();
 
     tree.add(50);
     tree.add(30);
@@ -83,8 +78,13 @@ public class BinarySearchTree {
     tree.add(60);
     tree.add(80);
     
-    // print print traversal of the BST
+
     tree.print();
-    System.out.println("O elemento" + tree.search(tree.root, 40).val + " foi achado");
+    if(tree.search(tree.raiz, 40)) {
+        System.out.println("O elemento foi achado");
+    } else {
+        System.out.println("O elemento ñ foi achado");
+    }
+    
 }
 }
