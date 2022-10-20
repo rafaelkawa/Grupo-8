@@ -1,16 +1,16 @@
 O(n^2) - bubble sort
 #1 python - O(n^2)
-#2 JS - O(n^2)
-#3 PHP - O(n^2)
+#2 JS - O(n^2) 
+#3 PHP - O(n^2) (FEITO)
 
 
 #4 java - O(n log n)
 #5 C# - O(n log n)
 #6 Go - O(n log n)
 
-#7 Ruby - O(1)
+#7 Ruby - O(1) (FEITO)
 
 #8 C - O(n))
 #9 C++ - O(n)
-#10 R - O(n)
-
+#10 R - O(n) (FEITO)
+ 
