@@ -1,6 +1,7 @@
 using System;
 
-
+// O(n)
+// Programa q itera pela variavel n e retorna todos os numeros pares. 
 class Program
 {
     public static void Main(string[] args)

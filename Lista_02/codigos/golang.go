@@ -10,7 +10,7 @@ func main() {
 	array3 := []string{"Pechinha, Tijuca", "Catete"}
 	array2 := []string{"RJ", "SP"}
 
-	// Algoritimo para percorrer uma matriz
+	// Algoritmo para printar os bairros e cidades repetidamente
 
 	for a := 0; a < len(array1); a++ {
 		for n := 0; n < len(array2); n++ {

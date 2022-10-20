@@ -1,79 +1,74 @@
 // declaramos as principais informacoes e estruturas numa BST e criamos alguns metodos essenciais para manuear, como add e print
-public class BinarySearchTree {
-    class Node {
+public class ArvoreBinariaBusca {
+    class No {
         int val;
-        Node left, right;
+        No esq, dir;
  
-        public Node(int item)
+        public No(int item)
         {
             val = item;
-            left = right = null;
+            esq = dir = null;
         }
     }
  
-    // Root of BST
-    Node root;
+    No raiz;
  
-    // Constructor
-    BinarySearchTree() { root = null; }
+    ArvoreBinariaBusca() { raiz = null; }
+    ArvoreBinariaBusca(int value) { raiz = new No(value); }
  
-    BinarySearchTree(int value) { root = new Node(value); }
- 
-    // This method mainly calls addRec()
-    void add(int val) { root = addRec(root, val); }
- 
-    /* A recursive function to
-       add a new val in BST */
-    Node addRec(Node root, int val)
-    {
- 
-        /* If the tree is empty,
-           return a new node */
-        if (root == null) {
-            root = new Node(val);
-            return root;
-        }
- 
-        /* Otherwise, recur down the tree */
-        else if (val < root.val)
-            root.left = addRec(root.left, val);
-        else if (val > root.val)
-            root.right = addRec(root.right, val);
- 
-        /* return the (unchanged) node pointer */
-        return root;
+    // chamada inicial para recursão
+    void add(int val) {
+        raiz = addRec(raiz, val); 
     }
  
-    // This method mainly calls printRec()
-    void print() { printRec(root); }
- 
-    // A utility function to
-    // do print traversal of BST
-    void printRec(Node root)
+    // adiciona recursivo na BST
+    No addRec(No raiz, int val)
     {
-        if (root != null) {
-            printRec(root.left);
-            System.out.println(root.val);
-            printRec(root.right);
+ 
+        // se arovre vazia, cria primeiro nó/raiz
+        if (raiz == null) {
+            raiz = new No(val);
+            return raiz;
+        }
+ 
+        //se nao, vai comparando o valor atual e navegandoo até achar a posicao correta de insercao
+        else if (val < raiz.val)
+            raiz.esq = addRec(raiz.esq, val);
+        else if (val > raiz.val)
+            raiz.dir = addRec(raiz.dir, val);
+        return raiz;
+    }
+ 
+    // meotod inicial para print recursivo
+    void print() { printRec(raiz); }
+ 
+    // printa a arvore em ordem transversal
+    void printRec(No raiz)
+    {
+        if (raiz != null) {
+            printRec(raiz.esq);
+            System.out.println(raiz.val);
+            printRec(raiz.dir);
         }
     }
     
-    public Node search(Node root, int val) {
-        if(root == null ){
+    // algoritimo de busca de nó
+    public No search(No raiz, int val) {
+        if(raiz == null ){
             return null;
         } 
-        if (root.val == val) {
-            return root;
+        if (raiz.val == val) {
+            return raiz;
         }
-        if(root.val > val) {
-            return search(root.left, val);
+        if(raiz.val > val) {
+            return search(raiz.esq, val);
         }
-        return search(root.right, val);
+        return search(raiz.dir, val);
     }
  
-   
+   // main para executar
    public static void main(String[] args){
-    BinarySearchTree tree = new BinarySearchTree();
+    ArvoreBinariaBusca tree = new ArvoreBinariaBusca();
 
     tree.add(50);
     tree.add(30);
@@ -83,8 +78,7 @@ public class BinarySearchTree {
     tree.add(60);
     tree.add(80);
     
-    // print print traversal of the BST
     tree.print();
-    System.out.println("O elemento" + tree.search(tree.root, 40).val + " foi achado");
+    System.out.println("O elemento" + tree.search(tree.raiz, 40).val + " foi achado");
 }
 }
