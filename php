@@ -20,8 +20,6 @@ return $my_array1;
 $test_array1 = array(3, 21, 0, -6, 2, 45, 5, 4, -1, 8, 4, 23, 1);
 echo "Array original :\n";
 echo implode(', ',$test_array1 );
-echo "<br>";
 echo "\nArray ordenado: \n:";
 echo implode(', ',bubble_Sort($test_array1)). PHP_EOL;
-echo "<br>";
 ?>
