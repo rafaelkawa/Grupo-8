@@ -18,4 +18,11 @@
  
 # Faça 3 comparações de complexidade usando 6 linguagens diferentes. A cada dois códigos comparados é necessário que os mesmos executem a mesma lógica (função).
 
+Comparacao 1: 
+Python e JS - Algoritmo Bubble Sort (On)
+Reparamos que, apesar das diferencas de sintaxe, ambas as complexidades são representadas por 0(n²), pois o bubble sort percorre o array inteiro para cada casa do array, comparando o valor atual com o proximo e rearrumando caso seja necessário
 
+Comparacao 2: O(n) e O(1)
+R vs Ruby - Percorrer lista e adicionar
+
+Comparacao 3 - 
