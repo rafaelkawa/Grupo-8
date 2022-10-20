@@ -3,7 +3,7 @@
 
 # Desenvolva 10 códigos em 10 tipos de linguagens de programação diferentes e calcule suas complexidades.Obs: No mínimo 4 complexidades diferentes baseadas no Big O.
 
-#1 python - O(n^2)
+#1 python - O(n^2) (FEITO)
 #2 JS - O(n^2) 
 #3 PHP - O(n^2) - (FEITO) 
 #4 java - O(log n) (FEITO)
