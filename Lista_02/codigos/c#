@@ -1,19 +1,93 @@
 using System;
-
-
-class Program
-{
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("digite um valor para n");
-        int n = Int32.Parse(Console.ReadLine());
-        int i = 0;
-        while (i < n)
+ 
+class ArvoreBinariaBusca {
+ 
+    public class No {
+        public int val;
+        public No esq, dir;
+ 
+        public No(int item)
         {
-            i++;
-            if (i % 2 == 0)
-                continue;
-            Console.WriteLine(i);
+            val = item;
+            esq = dir = null;
+        }
+    }
+ 
+
+    No raiz;
+ 
+  
+    ArvoreBinariaBusca() { raiz = null; }
+    ArvoreBinariaBusca(int value) { raiz = new No(value); }
+ 
+    // This method mainly calls addRec()
+    void add(int val) { raiz = addRec(raiz, val); }
+ 
+    // A recursive function to add
+    // a new val in BST
+    No addRec(No raiz, int val)
+    {
+
+        if (raiz == null) {
+            raiz = new No(val);
+            return raiz;
+        }
+
+        if (val < raiz.val)
+            raiz.esq = addRec(raiz.esq, val);
+        else if (val > raiz.val)
+            raiz.dir = addRec(raiz.dir, val);
+ 
+er
+        return raiz;
+    }
+
+    void print() { printRec(raiz); }
+ 
+    // A utility function to
+    // do print traversal of BST
+    void printRec(No raiz)
+    {
+        if (raiz != null) {
+            printRec(raiz.esq);
+            Console.WriteLine(raiz.val);
+            printRec(raiz.dir);
+        }
+    }
+
+    public boolean search(Node raiz,int val){
+        if (raiz == null){
+            return false;
+        }
+        if (raiz.val == val) {
+            return true;
+        }
+        if (raiz.val < val){
+            return search(raiz.dir, val);
+        }  
+        return search(raiz.esq, val);
+    }
+
+    public static void Main(String[] args)
+    {
+        ArvoreBinariaBusca tree = new ArvoreBinariaBusca();
+ */
+        tree.add(50);
+        tree.add(30);
+        tree.add(20);
+        tree.add(40);
+        tree.add(70);
+        tree.add(60);
+        tree.add(80);
+
+        tree.print();
+        tree.print();
+
+        if(tree.search(tree.raiz, 40)) {
+            Console.WriteLine("O elemento foi achado");
+        } else {
+           Console.WriteLine("O elemento ñ foi achado");
         }
     }
 }
+ 
