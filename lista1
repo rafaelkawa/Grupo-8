@@ -1,6 +1,8 @@
+O(n^2) - bubble sort
 #1 python - O(n^2)
 #2 JS - O(n^2)
 #3 PHP - O(n^2)
+
 
 #4 java - O(n log n)
 #5 C# - O(n log n)
