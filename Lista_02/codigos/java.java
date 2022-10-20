@@ -53,17 +53,15 @@ public class ArvoreBinariaBusca {
         }
     }
     
-    public boolean search(No raiz, int val) {
-        if(raiz == null ){
+    public boolean search(No raiz, int val) {        
+        if(raiz == null){
             return false;
-        } 
-        if (raiz.val == val) {
-            return true;
+            }
+        while (raiz != null && raiz.val !=val){
+            raiz = val < raiz.val ? raiz.left : raiz.right; //terminatory condition if val smaller than raiz value then search in left side else on right side
         }
-        if(raiz.val > val) {
-            return search(raiz.esq, val);
+        return raiz;  
         }
-        return search(raiz.dir, val);
     }
  
    

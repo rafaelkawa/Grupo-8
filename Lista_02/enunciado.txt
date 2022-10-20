@@ -23,6 +23,9 @@ Python e JS - Algoritmo Bubble Sort (On)
 Reparamos que, apesar das diferencas de sintaxe, ambas as complexidades são representadas por 0(n²), pois o bubble sort percorre o array inteiro para cada casa do array, comparando o valor atual com o proximo e rearrumando caso seja necessário
 
 Comparacao 2: O(n) e O(1)
-R vs Ruby - Percorrer lista e adicionar
+R e Ruby - Percorrer lista e adicionar
+Nota-se que, apesar de apresentarmos o mesmo algoritmo, as duas linguagens lidam com maneiras diferentes de fazer o código e por isso a complexidade muda, sendo Ruby a melhor complexidade (tempo constante)
 
-Comparacao 3 - 
+Comparacao 3 - O(n) e O(log n)  
+Java e C# - Procurar elemento numa arvore binaria de busca
+Aqui foi apresentado dois algoritmos com o mesmo objetivo, sendo o java feito iterativo e o c# recursivo. Conseguimos perceber que o algoritmo iterativo é mais custoso a longo prazo
