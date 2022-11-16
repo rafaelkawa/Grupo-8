@@ -14,3 +14,24 @@ def acharElementoFaltando():
 acharElementoFaltando()
 
 ## Interview Question 2
+
+class Node:
+    def __init__(self, val):
+    self.value = val
+    self.prox = None
+
+class LinkedList:
+    def __init__(self,head=None):
+        self.head= None
+
+    def add(self,val):
+        novoNo = Node(val)
+        if (self.head is None):
+            self.head = novoNo
+            return self.head.val
+        
+        aux = self.head
+        while aux.prox:
+                aux = aux.prox
+        aux.prox = novoNo
+    
