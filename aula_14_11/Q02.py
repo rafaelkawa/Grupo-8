@@ -84,17 +84,17 @@ if __name__ == '__main__':
     print('\n')
 
 # Interview Question 5
-# def kthSmallest(self, raiz, k):
-#         count = self.getNodes(raiz.esq)
-#         if count+1 < k:
-#             return self.kthSmallest(raiz.dir, k-count-1)
-#         elif count+1 == k:
-#             return raiz.val
-#         else:
-#             return self.kthSmallest(raiz.esq, k)
+ def kthSmallest(self, raiz, k):
+         count = self.getNodes(raiz.esq)
+         if count+1 < k:
+             return self.kthSmallest(raiz.dir, k-count-1)
+         elif count+1 == k:
+             return raiz.val
+         else:
+             return self.kthSmallest(raiz.esq, k)
 
-#     def getNodes(self, raiz):
-#         if not raiz:
-#             return 0
-#         return 1 + self.getNodes(raiz.esq) + self.getNodes(raiz.dir)
+     def getNodes(self, raiz):
+         if not raiz:
+             return 0
+         return 1 + self.getNodes(raiz.esq) + self.getNodes(raiz.dir)
 
