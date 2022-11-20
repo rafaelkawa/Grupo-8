@@ -9,12 +9,17 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="EXEMPLO DO GRAFO">
+### Grafo de exemplo
+<img src="assets/grafos-Categoria-filme-atores.drawio.png" alt="EXEMPLO DO GRAFO">
 
-> Grafos extraídos através da análise da base de dados do Netflix disponibilizados no Kaggle com o objetivo de comparar e visualizar a como se relacionam as variáveis filmes, atores e generos.
+### 📥 Referência dos dados
+> Dados extraídos através da base de dados do Netflix disponibilizados no Kaggle.
+
+### ✔️ Objetivo
+> Comparar e visualizar como se relacionam as variáveis filmes, atores, generos e possíveis outras.
 
 
-### Ajustes e melhorias
+### 📊 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
@@ -33,19 +38,19 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 📚 Documentos
 
-- Resumo para primeira entrega: Link
-- Banco em .csv: [CSV](<netflixGraphRelations\data\netflix_titles.csv>)
+- Resumo para primeira entrega: [Link do doc gogole](https://docs.google.com/document/d/1UWSSgoKCm9E-zEY7kq5JNXwa7IkFpLV12K-KCv8bp5U/edit?usp=sharing)
+- Banco em .csv: [CSV](<data/netflix_titles.csv>)
 - Referência de banco: https://www.kaggle.com/datasets/shivamb/netflix-shows
 - 
 
 ## 📋 Propostas selecionada
 
-- Correlacionar os filmes com os atores
-- Correlacionar atores com categorias
-- Correlacionar categorias com países
-- Correlacionar países com filmes e atores
-- Relacionar filmes de comédia romântica mais assistidos e quais atores são mais encontrados (pesos de nós)
-- Correlacionar filmes mais assistindo de um determinado ano com atores
+- [x] Correlacionar os filmes com os atores
+- [x] Correlacionar atores com categorias
+- [x] Correlacionar categorias com países
+- [ ] Correlacionar países com filmes e atores
+- [x] Relacionar filmes de comédia romântica mais assistidos e quais atores são mais encontrados (pesos de nós)
+- [ ] Correlacionar filmes mais assistindo de um determinado ano com atores
 
 
 ## 💻 Pré-requisitos
