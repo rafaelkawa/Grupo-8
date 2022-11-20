@@ -1,4 +1,4 @@
-# Netflix Graph :tv:
+# Netflix Graph <> :tv:
 
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
@@ -102,7 +102,7 @@ Pessoas que contribuíram no projeto:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/22893710?s=400&u=ac6b0a06fabd6ea351b70199ea3cd41ff855dc00&v=44" width="100px;" alt="Foto do Elmo"/><br>
         <sub>
-          <b>Elmo Sanches</b>
+          <a href="https://github.com/elmojuh">Elmo Sanches</a>
         </sub>
       </a>
     </td>
@@ -110,7 +110,7 @@ Pessoas que contribuíram no projeto:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/28628701?s=400&u=0d1b921e35e974b6ebd5e0fa22916e348bb79059&v=4" width="100px;" alt="Foto do Rafa"/><br>
         <sub>
-          <b>Rafael Ventura</b>
+          <a href="https://github.com/rafael-ventura">Rafael Ventura</a>
         </sub>
       </a>
     </td>
@@ -118,7 +118,7 @@ Pessoas que contribuíram no projeto:
       <a href="#">
         <img src="https://images-ext-2.discordapp.net/external/61qsYP7cEbsK9rMV_5lkGrygMQSS5t4bkF7EDj45Qkg/%3Fs%3D400%26u%3Dedfba6747868e83c2624008b61494f6e8e6ef1dd%26v%3D4/https/avatars.githubusercontent.com/u/88738275" width="100px;" alt="Foto do Vitor"/><br>
         <sub>
-          <b>Vitor Indio</b>
+          <a href="https://github.com/vitorindio">Vitor Indio</a>
         </sub>
       </a>
     </td>
@@ -142,14 +142,9 @@ Pessoas que contribuíram no projeto:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/115169812?v=4" width="100px;" alt="Foto do Rafael"/><br>
         <sub>
-          <b> Pedro </b>
+          <b>Pedro</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
-
-
-
-
-[⬆ Voltar ao topo](#netflixgraph)<br>
