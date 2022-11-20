@@ -18,11 +18,35 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Decidir o Tema e a Base de Dados
-- [x] Criação do repositório 
-- [x] Criação da documentacao 
-- [x] Leitura e Manipulacao dos Dados
+- [x] Criação do repositório
+- [x] Decidir o tema e a base de dados
 - [x] Primeira Entrega
+- [ ] Documentacão 
+  - [x] Criação da documentação do repositório
+  - [ ] Modelo de Requisitos
+  - [ ] Modelo de Dados
+  - [ ] Regras de Negócio
+  - [ ] Casos de Uso
+- [ ] Leitura e Manipulacao dos Dados
+- [ ] Código
+
+
+## 📚 Documentos
+
+- Resumo para primeira entrega: Link
+- Banco em .csv: [CSV](<netflixGraphRelations\data\netflix_titles.csv>)
+- Referência de banco: https://www.kaggle.com/datasets/shivamb/netflix-shows
+- 
+
+## 📋 Propostas selecionada
+
+- Correlacionar os filmes com os atores
+- Correlacionar atores com categorias
+- Correlacionar categorias com países
+- Correlacionar países com filmes e atores
+- Relacionar filmes de comédia romântica mais assistidos e quais atores são mais encontrados (pesos de nós)
+- Correlacionar filmes mais assistindo de um determinado ano com atores
+
 
 ## 💻 Pré-requisitos
 
@@ -43,12 +67,10 @@ Para configurar o `Netflix Graph` na sua máquina, siga estas etapas:
 
 Windows:
 ```
-1- checkout para a sua pasta de projetos
-2- git clone do projeto ( ssh ou https ) 
-3- npm install ( front-end )
-4- yarn install ( back-end )
-```
+1- ...
 
+```
+<!---
 ## ☕ Executando Netflix Graph
 
 Para iniciar a aplicacao , siga estas etapas:
@@ -59,28 +81,26 @@ Para iniciar a aplicacao , siga estas etapas:
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+--->
 
-## 📫 Contribuindo para Strain.io
+## 📫 Contribuindo para repositório
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com repositório do grupo 8, siga estas etapas:
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+1. Faça um fork neste repositório https://github.com/rafaelkawa/Grupo-8.
+2. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+3. Envie para o branch original: `git push origin rafaelkawa/main`
+4. Crie a solicitação de pull request.
 
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Pessoas que contribuíram no projeto:
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Elmo"/><br>
+        <img src="https://avatars.githubusercontent.com/u/22893710?s=400&u=ac6b0a06fabd6ea351b70199ea3cd41ff855dc00&v=44" width="100px;" alt="Foto do Elmo"/><br>
         <sub>
           <b>Elmo Sanches</b>
         </sub>
