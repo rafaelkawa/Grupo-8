@@ -145,7 +145,7 @@ Pessoas que contribuíram no projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/115169812?v=4" width="100px;" alt="Foto do Rafael"/><br>
+        <img src="https://avatars.githubusercontent.com/u/64970585?v=4" width="100px;" alt="Foto do Pedro"/><br>
         <sub>
           <b>Pedro</b>
         </sub>
