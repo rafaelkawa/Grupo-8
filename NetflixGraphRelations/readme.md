@@ -137,9 +137,9 @@ Pessoas que contribuíram no projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/115169812?v=4" width="100px;" alt="Foto do Rafael"/><br>
+        <img src="https://avatars.githubusercontent.com/u/115169812?v=4" width="100px;" alt="Foto do Gerson"/><br>
         <sub>
-          <b>Gerson </b>
+        <a href="https://github.com/eugersonmendonca10">Gerson</a>
         </sub>
       </a>
     </td>
