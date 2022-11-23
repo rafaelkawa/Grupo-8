@@ -1,59 +1,64 @@
-# Netflix Graph <> :tv:
+# Netflix Graph ✣
 
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
+<!---
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+--->
 
-### Grafo de exemplo
-<img src="assets/grafos-Categoria-filme-atores.drawio.png" alt="EXEMPLO DO GRAFO">
 
 ### 📥 Referência dos dados
 > Dados extraídos através da base de dados do Netflix disponibilizados no Kaggle.
 
 ### ✔️ Objetivo
-> Comparar e visualizar como se relacionam as variáveis filmes, atores, generos e possíveis outras.
+> Comparar e visualizar como se relacionam as variáveis filmes, atores, generos e possíveis outras através de grafos.
 
+### 🌎 Minumundo
+> Criar um programa que leia dados de uma planilha em formato .csv e os transforme em grafos; A partir de um banco com dados do aplicativo Netflix, queremos relacionar dados de: atores, diretores, categorias, filmes, países, ano e duração do filme; a partir desses dados poder obter relações de categorias mais relevantes, atores que são mais encontrados, diretores mais frequentes, ano com maiores categorias e outras. O programa deve permitir a inserção automática e manual de novos nós do grafo com suas respectivas características para se adequar ao grafo designado.
+
+### Grafo de exemplo
+<img src="assets/grafos-Categoria-filme-atores.drawio.png" alt="EXEMPLO DO GRAFO">
 
 ### 📊 Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto ainda está em desenvolvimento e as atualizações são voltadas nas seguintes tarefas:
 
 - [x] Criação do repositório
 - [x] Decidir o tema e a base de dados
 - [x] Primeira Entrega
-- [ ] Documentacão 
+- [x] Documentacão 
   - [x] Criação da documentação do repositório
-  - [ ] Modelo de Requisitos
+  - [x] Modelo de Requisitos
   - [ ] Modelo de Dados
-  - [ ] Regras de Negócio
-  - [ ] Casos de Uso
+  - [x] Regras de Negócio
+  - [x] Casos de Uso
 - [ ] Leitura e Manipulacao dos Dados
 - [ ] Código
 
 
 ## 📚 Documentos
 
-- Resumo para primeira entrega: [Link do doc gogole](https://docs.google.com/document/d/1UWSSgoKCm9E-zEY7kq5JNXwa7IkFpLV12K-KCv8bp5U/edit?usp=sharing)
-- Banco em .csv: [CSV](<data/netflix_titles.csv>)
-- Referência de banco: https://www.kaggle.com/datasets/shivamb/netflix-shows
-- 
+- Wiki [Link Gogole Doc](https://docs.google.com/document/d/1UWSSgoKCm9E-zEY7kq5JNXwa7IkFpLV12K-KCv8bp5U/edit?usp=sharing)
+- Banco em .csv: [Netflix Data](<data/netflix_titles.csv>)
+- Referência de banco: [Kaggle Netflix and Shows](<https://www.kaggle.com/datasets/shivamb/netflix-shows>)
+- API imdb em estudo de caso [Imdb API](<https://developer.imdb.com/documentation/api-documentation/?ref_=side_nav>)
 
-## 📋 Propostas selecionada
+## 📋 Propostas selecionadas
 
-- [x] Correlacionar os filmes com os atores
-- [x] Correlacionar atores com categorias
-- [x] Correlacionar categorias com países
+- [ ] Correlacionar os filmes com os atores
+- [ ] Correlacionar atores com categorias
+- [ ] Correlacionar categorias com países
 - [ ] Correlacionar países com filmes e atores
-- [x] Relacionar filmes de comédia romântica mais assistidos e quais atores são mais encontrados (pesos de nós)
-- [ ] Correlacionar filmes mais assistindo de um determinado ano com atores
+- [ ] Relacionar filmes de uma determinada categoria e quais atores são mais encontrados (pesos de nós)
+- [ ] Correlacionar filmes de um determinado ano com atores
 
 
-## 💻 Pré-requisitos
+## 💻 Pré-requisitos de Instalação
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
@@ -72,7 +77,7 @@ Para configurar o `Netflix Graph` na sua máquina, siga estas etapas:
 
 Windows:
 ```
-1- ...
+<comando_de_instalação>
 
 ```
 <!---
@@ -99,7 +104,7 @@ Para contribuir com repositório do grupo 8, siga estas etapas:
 
 ## 🤝 Colaboradores
 
-Pessoas que contribuíram no projeto:
+##### Pessoas que contribuíram no projeto:
 
 <table>
   <tr>
