@@ -1,4 +1,4 @@
-# Netflix Graph ✣
+# Tweet Account Relations Graph ✣
 
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
@@ -13,13 +13,13 @@
 
 
 ### 📥 Referência dos dados
-> Dados extraídos através da base de dados do Netflix disponibilizados no Kaggle.
+> Dados extraídos através do uso da biblioteca python Tweepy
 
 ### ✔️ Objetivo
-> Comparar e visualizar como se relacionam as variáveis filmes, atores, generos e possíveis outras através de grafos.
+> Visualizar a conexão entre contas tweetando sobre um mesmo assunto ou hashtag.
 
 ### 🌎 Minumundo
-> Criar um programa que leia dados de uma planilha em formato .csv e os transforme em grafos; A partir de um banco com dados do aplicativo Netflix, queremos relacionar dados de: atores, diretores, categorias, filmes, países, ano e duração do filme; a partir desses dados poder obter relações de categorias mais relevantes, atores que são mais encontrados, diretores mais frequentes, ano com maiores categorias e outras. O programa deve permitir a inserção automática e manual de novos nós do grafo com suas respectivas características para se adequar ao grafo designado.
+>  Criar um programa que extraia os dados do twitter relacionados a posse do presidente Lula; Criar um algoritmo para fazer a matriz de adjacencia entre os tweets de um usuário e uma mencao feita a ele *seja ela atra'vez de uma resposta direta, um retweet ou um retweet com mencão); Criar um grafo para analisar os dados;
 
 ### Grafo de exemplo
 <img src="assets/grafos-Categoria-filme-atores.drawio.png" alt="EXEMPLO DO GRAFO">
@@ -37,61 +37,35 @@ O projeto ainda está em desenvolvimento e as atualizações são voltadas nas s
   - [ ] Modelo de Dados
   - [x] Regras de Negócio
   - [x] Casos de Uso
-- [ ] Leitura e Manipulacao dos Dados
-- [ ] Código
+- [x] Leitura e Manipulacao dos Dados
+- [x] Código
 
 
 ## 📚 Documentos
 
 - Wiki [Link Gogole Doc](https://docs.google.com/document/d/1UWSSgoKCm9E-zEY7kq5JNXwa7IkFpLV12K-KCv8bp5U/edit?usp=sharing)
 - Banco em .csv: [Netflix Data](<data/netflix_titles.csv>)
-- Referência de banco: [Kaggle Netflix and Shows](<https://www.kaggle.com/datasets/shivamb/netflix-shows>)
-- API imdb em estudo de caso [Imdb API](<https://developer.imdb.com/documentation/api-documentation/?ref_=side_nav>)
+- Tweepy: [Documentacao](https://docs.tweepy.org/en/stable/)
+- NetworkX: [Documentacao](https://networkx.org/documentation/networkx-1.9/)
 
 ## 📋 Propostas selecionadas
 
-- [ ] Correlacionar os filmes com os atores
-- [ ] Correlacionar atores com categorias
-- [ ] Correlacionar categorias com países
-- [ ] Correlacionar países com filmes e atores
-- [ ] Relacionar filmes de uma determinada categoria e quais atores são mais encontrados (pesos de nós)
-- [ ] Correlacionar filmes de um determinado ano com atores
+- [x] Extrair tweets com o tema "Bolsonaro" na data de 01/01/2023
+- [x] Extrair tweets com o tema "Lula" na data de 01/01/2023
+- [x] Tratar dados
+- [x] Criar grafo
+- [x] Visualizar grafo
+- [ ] Analisar resultados
 
 
 ## 💻 Pré-requisitos de Instalação
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `Python / xgraph*** / pip`
-* Você tem uma máquina `Windows / Linux  `
-* Você tem interesse em ` Grafos / Data Analisys / curte cultura geek`.
+* Você instalou a versão mais recente de `Python / pip / Pandas / Tweepy / NetworkX `
+* Você tem uma máquina `Windows / Linux / Mac `
+* Você tem interesse em ` Grafos / Data Analisys / Twitter`.
 
-## 🚀 Configurando <>
-
-Para configurar o `Netflix Graph` na sua máquina, siga estas etapas:
-
- Linux:
-```
-<comando_de_instalação>
-```
-
-Windows:
-```
-<comando_de_instalação>
-
-```
-<!---
-## ☕ Executando Netflix Graph
-
-Para iniciar a aplicacao , siga estas etapas:
-
-```
-1- npm start ( front-end )
-2- yarn start ( back-end )
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
---->
 
 ## 📫 Contribuindo para repositório
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
