@@ -19,10 +19,10 @@
 > Visualizar a conexão entre contas tweetando sobre um mesmo assunto ou hashtag.
 
 ### 🌎 Minumundo
->  Criar um programa que extraia os dados do twitter relacionados a posse do presidente Lula; Criar um algoritmo para fazer a matriz de adjacencia entre os tweets de um usuário e uma mencao feita a ele *seja ela atra'vez de uma resposta direta, um retweet ou um retweet com mencão); Criar um grafo para analisar os dados;
+>  Criar um programa que extraia os dados do twitter relacionados a posse do presidente Lula; Criar um algoritmo para fazer a matriz de adjacência entre os tweets de um usuário e uma menção feita a ele *seja ela através de uma resposta direta, um retweet ou um retweet com menção); Criar um grafo para analisar os dados.
 
 ### Grafo de exemplo
-<img src="assets/grafos-Categoria-filme-atores.drawio.png" alt="EXEMPLO DO GRAFO">
+> Indisponível
 
 ### 📊 Ajustes e melhorias
 
@@ -44,7 +44,6 @@ O projeto ainda está em desenvolvimento e as atualizações são voltadas nas s
 ## 📚 Documentos
 
 - Wiki [Link Gogole Doc](https://docs.google.com/document/d/1UWSSgoKCm9E-zEY7kq5JNXwa7IkFpLV12K-KCv8bp5U/edit?usp=sharing)
-- Banco em .csv: [Netflix Data](<data/netflix_titles.csv>)
 - Tweepy: [Documentacao](https://docs.tweepy.org/en/stable/)
 - NetworkX: [Documentacao](https://networkx.org/documentation/networkx-1.9/)
 
